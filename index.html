@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ShipFairy</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">shipfairy</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Never miss a delivery again.</h1>
+            <h4 class="blurb1">ShipFairy delivers your packages when you're at home to receive them. 
+            No more missed, lost or stolen items for only $2 per box.</h4>
+
+            <!--  <a href="#" class="btn btn-lg btn-default">Learn more</a> -->
+           <!-- <form class="form-signin">
+              <h4 class="form-signin-heading">Find out when we launch</h4>
+
+              <div class = "form-field">
+              <label for="name" class="sr-only">Name</label>
+              <input type="name" id="inputName" class="form-control" placeholder="Name" required autofocus>
+              </div>
+              
+              <div class = "form-field">
+              <label for="inputEmail" class="sr-only">Email address</label>
+              <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+              </div>
+
+              <div class = "form-field"> 
+              <label for="inputZip" class="sr-only">Zip Code</label>
+              <input type="zip" id="inputZip" class="form-control" placeholder="Zip Code" required>
+              </div>
+
+              <div class="submit-button">
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+              </div>
+
+            </form> -->
+            <h4 class="form-signin">Find out when we launch</h4>
+
+            <script type="text/javascript">var submitted=false;</script>
+            <script>
+            function formSubmit(){
+              document.getElementById("thank-you").innerHTML = "Thank you! We'll be in touch soon.";
+              
+              document.getElementById("waitlist-form").reset();
+            }
+            </script>
+
+            <iframe name="hidden_iframe" id="hidden_iframe"
+            style="display:none;" onload="if(submitted)
+            {formSubmit();}"></iframe>
+
+            <form action="https://docs.google.com/forms/d/1mv8kDBdN27797Ovht-7Nqm_4aQvZo0OVy9aavSb7TXo/formResponse" method="post"
+            target="hidden_iframe" onsubmit="submitted=true;" id="waitlist-form">
+            <ol role="list" class="ss-question-list" style="padding-left: 0">
+              <div class="ss-form-question errorbox-good" role="listitem">
+              <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+              <label class="ss-q-item-label" for="entry_519800915"><div class="ss-q-title">
+              <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+              </div>
+              <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+              <input type="text" name="entry.519800915" value="" class="ss-q-short" id="entry_519800915" dir="auto" aria-label="Name  " aria-required="true" required="" title="" placeholder="Name">
+              <div class="error-message" id="1744094814_errorMessage"></div>
+              
+              </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+              <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+              <label class="ss-q-item-label" for="entry_1882346879"><div class="ss-q-title">
+              <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+              </div>
+              <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+              <input type="text" name="entry.1882346879" value="" class="ss-q-short" id="entry_1882346879" dir="auto" aria-required="true" required="" title="" placeholder="Email">
+              <div class="error-message" id="1077412792_errorMessage"></div>
+     
+              </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
+              <div dir="ltr" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
+              <label class="ss-q-item-label" for="entry_1383480285"><div class="ss-q-title">
+              <label for="itemView.getDomIdToLabel()" aria-label="(Required field)"></label>
+              </div>
+              <div class="ss-q-help ss-secondary-text" dir="ltr"></div></label>
+              <input type="text" name="entry.1383480285" value="" class="ss-q-short" id="entry_1383480285" dir="auto" aria-label="Zip Code  " aria-required="true" required="" title="" placeholder="Zip Code">
+              <div class="error-message" id="887732084_errorMessage"></div>
+      
+              </div></div></div>
+              <input type="hidden" name="draftResponse" value="[,,&quot;3586987378115385948&quot;]
+              ">
+              <input type="hidden" name="pageHistory" value="0">
+              <input type="hidden" name="fbzx" value="3586987378115385948">
+              <div class="ss-item ss-navigate"><table id="navigation-table"><tbody><tr><td class="ss-form-entry goog-inline-block" id="navigation-buttons" dir="ltr">
+              <input type="submit" name="submit" value="Submit" id="ss-submit" class="btn">
+              </td>
+              </tr></tbody></table></div></ol>
+              <p id="thank-you"></p>
+            </form>
+
+            </p>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Built with love in Chicago</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
